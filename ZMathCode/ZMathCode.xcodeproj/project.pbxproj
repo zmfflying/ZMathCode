@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD70D125709D76005E27C8 /* 206.反转链表.swift */; };
 		E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CA55024A1AFB7005C8718 /* AppDelegate.swift */; };
 		E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CA55424A1AFB7005C8718 /* ViewController.swift */; };
 		E21CA55A24A1AFC7005C8718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21CA55924A1AFC7005C8718 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFCD70D125709D76005E27C8 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
 		E21CA54D24A1AFB7005C8718 /* ZMathCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMathCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21CA55024A1AFB7005C8718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21CA55424A1AFB7005C8718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFCD70D025709C91005E27C8 /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD70D125709D76005E27C8 /* 206.反转链表.swift */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
 		E21CA54424A1AFB7005C8718 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFCD70D025709C91005E27C8 /* 链表 */,
 				E21CA58124A1B083005C8718 /* HOT100 */,
 			);
 			path = Classes;
@@ -276,6 +287,7 @@
 			files = (
 				E21CA58424A1B083005C8718 /* 2.两数相加.swift in Sources */,
 				E21CA58524A1B083005C8718 /* 1.两数之和.swift in Sources */,
+				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,
 			);
@@ -443,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6S6573EV39;
+				DEVELOPMENT_TEAM = 883YY8GPM9;
 				INFOPLIST_FILE = ZMathCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
