@@ -14,13 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let l1 = ListNode(1)
-        let l11 = ListNode(2)
-        let l111 = ListNode(3)
-        let l1111 = ListNode(4)
-        l1.next = l11
-        l11.next = l111
-        l111.next = l1111
-        print("\(description1(l1: reverseList(l1)!))")
+        let l2 = ListNode(2)
+        let l3 = ListNode(3)
+        let l4 = ListNode(4)
+        let l5 = ListNode(5)
+        l1.next = l2
+        l2.next = l3
+        l3.next = l4
+        l4.next = l5
+        print("\(description1(l1: reverseBetween(l1, 2, 4)!))")
     }
 
 
