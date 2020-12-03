@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
+		DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */; };
+		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
 		DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */; };
 		DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD70D125709D76005E27C8 /* 206.反转链表.swift */; };
 		E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CA55024A1AFB7005C8718 /* AppDelegate.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
+		DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.反转链表II.swift"; sourceTree = "<group>"; };
 		DFCD70D125709D76005E27C8 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
 		E21CA54D24A1AFB7005C8718 /* ZMathCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMathCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,8 @@
 				DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */,
 				DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */,
 				DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */,
+				DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */,
+				DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -298,9 +304,11 @@
 				E21CA58424A1B083005C8718 /* 2.两数相加.swift in Sources */,
 				E21CA58524A1B083005C8718 /* 1.两数之和.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
+				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
 				DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */,
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */,
+				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
