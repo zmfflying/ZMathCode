@@ -13,14 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let l1 = ListNode(1)
-        let l2 = ListNode(2)
-        let l3 = ListNode(3)
-        let l4 = ListNode(4)
-        l1.next = l2
-        l2.next = l3
-        l3.next = l4
-        print("\(description1(l1: swapPairs(l1)!))")
+        print(letterCombinations("23"))
     }
 
 
