@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(letterCombinations("23"))
+        print(restoreIpAddresses("25525511135"))
     }
 
 

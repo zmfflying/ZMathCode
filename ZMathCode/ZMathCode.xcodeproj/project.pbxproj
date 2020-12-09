@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
+		DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
 		DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */; };
 		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
+		DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93.复原IP地址.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
 		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				DFFA1CFB2579D15800EB94B8 /* 17.电话号码的字母组合.swift */,
+				DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */,
 			);
 			path = "递归与回溯";
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */,
+				DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */,
 				E21CA58424A1B083005C8718 /* 2.两数相加.swift in Sources */,
 				E21CA58524A1B083005C8718 /* 1.两数之和.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
