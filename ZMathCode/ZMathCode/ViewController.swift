@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(restoreIpAddresses("25525511135"))
+        print(partition("aab"))
     }
 
 
