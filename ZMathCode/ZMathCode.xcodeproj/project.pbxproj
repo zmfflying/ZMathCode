@@ -11,6 +11,7 @@
 		DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
 		DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */; };
+		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
 		DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF964B702580765E006F5A28 /* 131.分割回文串.swift */; };
 		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
 		DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */; };
@@ -48,6 +49,7 @@
 		DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93.复原IP地址.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
 		DF964B702580765E006F5A28 /* 131.分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131.分割回文串.swift"; sourceTree = "<group>"; };
 		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.反转链表II.swift"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				DFFA1CFB2579D15800EB94B8 /* 17.电话号码的字母组合.swift */,
 				DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */,
 				DF964B702580765E006F5A28 /* 131.分割回文串.swift */,
+				DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */,
 			);
 			path = "递归与回溯";
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */,
 				DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */,
 				DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */,
 				DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */,
