@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(combine(4, 2))
+        print(subsets([1,2,3]))
     }
 
 
