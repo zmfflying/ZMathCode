@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(permuteUnique([1,1,2]))
+        print(combine(4, 2))
     }
 
 

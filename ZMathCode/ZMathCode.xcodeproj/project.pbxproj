@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
 		DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */; };
+		DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C6294259340B20021DB9F /* 77.组合.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
 		DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */; };
 		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
 		DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93.复原IP地址.swift"; sourceTree = "<group>"; };
+		DF2C6294259340B20021DB9F /* 77.组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77.组合.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
 		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				DF964B702580765E006F5A28 /* 131.分割回文串.swift */,
 				DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */,
 				DFFD06E0258B2B3800B5DA93 /* 47.全排列II.swift */,
+				DF2C6294259340B20021DB9F /* 77.组合.swift */,
 			);
 			path = "递归与回溯";
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */,
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
+				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
