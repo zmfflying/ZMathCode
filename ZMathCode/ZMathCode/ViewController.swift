@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(combinationSum3(9, 45))
+        print(subsetsWithDup([1,2,2]))
     }
 }
 

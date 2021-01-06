@@ -17,6 +17,7 @@
 		DF536576259B27D1002A8A12 /* 40.组合总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF536575259B27D1002A8A12 /* 40.组合总和II.swift */; };
 		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
 		DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */; };
+		DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807425A5A83700F36EBF /* 90.子集II.swift */; };
 		DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF964B702580765E006F5A28 /* 131.分割回文串.swift */; };
 		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
 		DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */; };
@@ -61,6 +62,7 @@
 		DF536575259B27D1002A8A12 /* 40.组合总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "40.组合总和II.swift"; sourceTree = "<group>"; };
 		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
 		DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "216.组合总和III.swift"; sourceTree = "<group>"; };
+		DF93807425A5A83700F36EBF /* 90.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90.子集II.swift"; sourceTree = "<group>"; };
 		DF964B702580765E006F5A28 /* 131.分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131.分割回文串.swift"; sourceTree = "<group>"; };
 		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.反转链表II.swift"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				DF53654B2599CE75002A8A12 /* 39.组合总和.swift */,
 				DF536575259B27D1002A8A12 /* 40.组合总和II.swift */,
 				DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */,
+				DF93807425A5A83700F36EBF /* 90.子集II.swift */,
 			);
 			path = "递归与回溯";
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				DF53654C2599CE75002A8A12 /* 39.组合总和.swift in Sources */,
 				E21CA58424A1B083005C8718 /* 2.两数相加.swift in Sources */,
 				E21CA58524A1B083005C8718 /* 1.两数之和.swift in Sources */,
+				DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */,
 				DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */,
