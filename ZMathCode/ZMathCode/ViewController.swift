@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(combinationSum2([10,1,2,7,6,1,5], 8))
+        print(combinationSum3(9, 45))
     }
 }
 
