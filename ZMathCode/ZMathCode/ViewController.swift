@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(isSubsequence("axc", "ahbgdc"))
+        print(minSubArrayLen(213, [12,28,83,4,25,26,25,2,25,25,25,12]))
     }
 }
 
