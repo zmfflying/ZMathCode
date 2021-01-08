@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(subsetsWithDup([1,2,2]))
+        print(isSubsequence("axc", "ahbgdc"))
     }
 }
 
