@@ -15,6 +15,8 @@
 		DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5365462599C49D002A8A12 /* 78.子集.swift */; };
 		DF53654C2599CE75002A8A12 /* 39.组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53654B2599CE75002A8A12 /* 39.组合总和.swift */; };
 		DF536576259B27D1002A8A12 /* 40.组合总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF536575259B27D1002A8A12 /* 40.组合总和II.swift */; };
+		DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A54425AC74D600392FC0 /* 3.无重复字符的最长子串.swift */; };
+		DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A54F25AD819200392FC0 /* 76.最小覆盖子串.swift */; };
 		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
 		DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */; };
 		DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807425A5A83700F36EBF /* 90.子集II.swift */; };
@@ -64,6 +66,8 @@
 		DF5365462599C49D002A8A12 /* 78.子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "78.子集.swift"; sourceTree = "<group>"; };
 		DF53654B2599CE75002A8A12 /* 39.组合总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39.组合总和.swift"; sourceTree = "<group>"; };
 		DF536575259B27D1002A8A12 /* 40.组合总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "40.组合总和II.swift"; sourceTree = "<group>"; };
+		DF65A54425AC74D600392FC0 /* 3.无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3.无重复字符的最长子串.swift"; sourceTree = "<group>"; };
+		DF65A54F25AD819200392FC0 /* 76.最小覆盖子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "76.最小覆盖子串.swift"; sourceTree = "<group>"; };
 		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
 		DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "216.组合总和III.swift"; sourceTree = "<group>"; };
 		DF93807425A5A83700F36EBF /* 90.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90.子集II.swift"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				DF9380D425A8533400F36EBF /* 209.长度最小的子数组.swift */,
+				DF65A54425AC74D600392FC0 /* 3.无重复字符的最长子串.swift */,
+				DF65A54F25AD819200392FC0 /* 76.最小覆盖子串.swift */,
 			);
 			path = "滑动窗口";
 			sourceTree = "<group>";
@@ -380,7 +386,9 @@
 				DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */,
 				DF93807B25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift in Sources */,
 				DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */,
+				DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
+				DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */,
 				DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */,
 				DF9380CF25A8403D00F36EBF /* 392.判断子序列.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
