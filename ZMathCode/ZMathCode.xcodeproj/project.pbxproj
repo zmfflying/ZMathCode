@@ -20,6 +20,7 @@
 		DF65A55925AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A55825AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift */; };
 		DF65A56625B0557A00392FC0 /* 239.滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A56525B0557A00392FC0 /* 239.滑动窗口最大值.swift */; };
 		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
+		DF85AAB425B6E4CF0006C371 /* 150.逆波兰表达式求值.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */; };
 		DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */; };
 		DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807425A5A83700F36EBF /* 90.子集II.swift */; };
 		DF93807B25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807A25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift */; };
@@ -73,6 +74,7 @@
 		DF65A55825AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438.找到字符串中所有字母异位词.swift"; sourceTree = "<group>"; };
 		DF65A56525B0557A00392FC0 /* 239.滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239.滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
+		DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150.逆波兰表达式求值.swift"; sourceTree = "<group>"; };
 		DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "216.组合总和III.swift"; sourceTree = "<group>"; };
 		DF93807425A5A83700F36EBF /* 90.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90.子集II.swift"; sourceTree = "<group>"; };
 		DF93807A25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.买卖股票的最佳时机II.swift"; sourceTree = "<group>"; };
@@ -126,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF85AAB225B6E4810006C371 /* 栈和队列 */ = {
+			isa = PBXGroup;
+			children = (
+				DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */,
+			);
+			path = "栈和队列";
+			sourceTree = "<group>";
+		};
 		DF93807925A5BDB600F36EBF /* 贪心算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +244,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF85AAB225B6E4810006C371 /* 栈和队列 */,
 				DF9380D325A8531D00F36EBF /* 滑动窗口 */,
 				DF93807925A5BDB600F36EBF /* 贪心算法 */,
 				DFFA1CFA2579D11800EB94B8 /* 递归与回溯 */,
@@ -397,6 +408,7 @@
 				DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */,
+				DF85AAB425B6E4CF0006C371 /* 150.逆波兰表达式求值.swift in Sources */,
 				DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */,
 				DF9380CF25A8403D00F36EBF /* 392.判断子序列.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
