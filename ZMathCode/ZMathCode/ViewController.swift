@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(evalRPN(["0","3","/"]))
+        print(simplifyPath("/a//b////c/d//././/.."))
     }
 }

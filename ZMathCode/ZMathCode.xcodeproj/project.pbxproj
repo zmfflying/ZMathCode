@@ -21,6 +21,8 @@
 		DF65A56625B0557A00392FC0 /* 239.滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A56525B0557A00392FC0 /* 239.滑动窗口最大值.swift */; };
 		DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */; };
 		DF85AAB425B6E4CF0006C371 /* 150.逆波兰表达式求值.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */; };
+		DF85AABC25B8031C0006C371 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85AABB25B8031C0006C371 /* 20.有效的括号.swift */; };
+		DF85AADC25BA6DE80006C371 /* 71.简化路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85AADB25BA6DE80006C371 /* 71.简化路径.swift */; };
 		DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */; };
 		DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807425A5A83700F36EBF /* 90.子集II.swift */; };
 		DF93807B25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93807A25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift */; };
@@ -75,6 +77,8 @@
 		DF65A56525B0557A00392FC0 /* 239.滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239.滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		DF6F77BE2588C44C00EFD3A6 /* 46.全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46.全排列.swift"; sourceTree = "<group>"; };
 		DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150.逆波兰表达式求值.swift"; sourceTree = "<group>"; };
+		DF85AABB25B8031C0006C371 /* 20.有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
+		DF85AADB25BA6DE80006C371 /* 71.简化路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "71.简化路径.swift"; sourceTree = "<group>"; };
 		DF93806F25A58AEA00F36EBF /* 216.组合总和III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "216.组合总和III.swift"; sourceTree = "<group>"; };
 		DF93807425A5A83700F36EBF /* 90.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "90.子集II.swift"; sourceTree = "<group>"; };
 		DF93807A25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.买卖股票的最佳时机II.swift"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */,
+				DF85AABB25B8031C0006C371 /* 20.有效的括号.swift */,
+				DF85AADB25BA6DE80006C371 /* 71.简化路径.swift */,
 			);
 			path = "栈和队列";
 			sourceTree = "<group>";
@@ -397,7 +403,9 @@
 				DFFD06E1258B2B3800B5DA93 /* 47.全排列II.swift in Sources */,
 				DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */,
 				DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */,
+				DF85AABC25B8031C0006C371 /* 20.有效的括号.swift in Sources */,
 				DF53654C2599CE75002A8A12 /* 39.组合总和.swift in Sources */,
+				DF85AADC25BA6DE80006C371 /* 71.简化路径.swift in Sources */,
 				E21CA58424A1B083005C8718 /* 2.两数相加.swift in Sources */,
 				E21CA58524A1B083005C8718 /* 1.两数之和.swift in Sources */,
 				DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */,
