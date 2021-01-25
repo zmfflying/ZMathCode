@@ -31,6 +31,8 @@
 		DF9380D525A8533400F36EBF /* 209.长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9380D425A8533400F36EBF /* 209.长度最小的子数组.swift */; };
 		DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF964B702580765E006F5A28 /* 131.分割回文串.swift */; };
 		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
+		DFB0AD2125BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2025BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift */; };
+		DFB0AD2625BEB31E004D49A8 /* 199.二叉树的右视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */; };
 		DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */; };
 		DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD70D125709D76005E27C8 /* 206.反转链表.swift */; };
 		DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA1CFB2579D15800EB94B8 /* 17.电话号码的字母组合.swift */; };
@@ -87,6 +89,8 @@
 		DF9380D425A8533400F36EBF /* 209.长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209.长度最小的子数组.swift"; sourceTree = "<group>"; };
 		DF964B702580765E006F5A28 /* 131.分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131.分割回文串.swift"; sourceTree = "<group>"; };
 		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		DFB0AD2025BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144.二叉树的前序遍历.swift"; sourceTree = "<group>"; };
+		DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199.二叉树的右视图.swift"; sourceTree = "<group>"; };
 		DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.反转链表II.swift"; sourceTree = "<group>"; };
 		DFCD70D125709D76005E27C8 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
 		DFFA1CFB2579D15800EB94B8 /* 17.电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17.电话号码的字母组合.swift"; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				DF85AAB325B6E4CF0006C371 /* 150.逆波兰表达式求值.swift */,
 				DF85AABB25B8031C0006C371 /* 20.有效的括号.swift */,
 				DF85AADB25BA6DE80006C371 /* 71.简化路径.swift */,
+				DFB0AD2025BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift */,
+				DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */,
 			);
 			path = "栈和队列";
 			sourceTree = "<group>";
@@ -425,6 +431,8 @@
 				DF9380D525A8533400F36EBF /* 209.长度最小的子数组.swift in Sources */,
 				DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */,
 				DF536576259B27D1002A8A12 /* 40.组合总和II.swift in Sources */,
+				DFB0AD2125BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift in Sources */,
+				DFB0AD2625BEB31E004D49A8 /* 199.二叉树的右视图.swift in Sources */,
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */,
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
