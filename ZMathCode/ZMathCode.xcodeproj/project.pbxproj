@@ -15,6 +15,7 @@
 		DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5365462599C49D002A8A12 /* 78.子集.swift */; };
 		DF53654C2599CE75002A8A12 /* 39.组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF53654B2599CE75002A8A12 /* 39.组合总和.swift */; };
 		DF536576259B27D1002A8A12 /* 40.组合总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF536575259B27D1002A8A12 /* 40.组合总和II.swift */; };
+		DF5F99FE25BFBCCF00CCE435 /* 208.实现 Trie (前缀树).swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F99FD25BFBCCF00CCE435 /* 208.实现 Trie (前缀树).swift */; };
 		DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A54425AC74D600392FC0 /* 3.无重复字符的最长子串.swift */; };
 		DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A54F25AD819200392FC0 /* 76.最小覆盖子串.swift */; };
 		DF65A55925AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65A55825AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift */; };
@@ -75,6 +76,7 @@
 		DF5365462599C49D002A8A12 /* 78.子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "78.子集.swift"; sourceTree = "<group>"; };
 		DF53654B2599CE75002A8A12 /* 39.组合总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39.组合总和.swift"; sourceTree = "<group>"; };
 		DF536575259B27D1002A8A12 /* 40.组合总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "40.组合总和II.swift"; sourceTree = "<group>"; };
+		DF5F99FD25BFBCCF00CCE435 /* 208.实现 Trie (前缀树).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208.实现 Trie (前缀树).swift"; sourceTree = "<group>"; };
 		DF65A54425AC74D600392FC0 /* 3.无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3.无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 		DF65A54F25AD819200392FC0 /* 76.最小覆盖子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "76.最小覆盖子串.swift"; sourceTree = "<group>"; };
 		DF65A55825AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438.找到字符串中所有字母异位词.swift"; sourceTree = "<group>"; };
@@ -140,6 +142,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF5F99FC25BFBCA600CCE435 /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F99FD25BFBCCF00CCE435 /* 208.实现 Trie (前缀树).swift */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
 		DF85AAB225B6E4810006C371 /* 栈和队列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +279,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF5F99FC25BFBCA600CCE435 /* 数据结构 */,
 				DFB0AD2A25BECCE2004D49A8 /* 查找表 */,
 				DF85AAB225B6E4810006C371 /* 栈和队列 */,
 				DF9380D325A8531D00F36EBF /* 滑动窗口 */,
@@ -448,6 +459,7 @@
 				DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */,
 				DF536576259B27D1002A8A12 /* 40.组合总和II.swift in Sources */,
 				DFB0AD2125BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift in Sources */,
+				DF5F99FE25BFBCCF00CCE435 /* 208.实现 Trie (前缀树).swift in Sources */,
 				DFB0AD2625BEB31E004D49A8 /* 199.二叉树的右视图.swift in Sources */,
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */,
