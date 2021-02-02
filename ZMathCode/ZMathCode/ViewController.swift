@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var num = [2,0,2,1,1,0]
-        sortColors(&num)
-        print(num)
+        print(findLongestWord("aaa", ["aaa","aa","a"]))
     }
 }
