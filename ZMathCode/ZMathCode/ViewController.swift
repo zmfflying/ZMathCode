@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(findLongestWord("aaa", ["aaa","aa","a"]))
+        print(longestWord(["cat","banana","dog","nana","walk","walker","dogwalker"]))
     }
 }
