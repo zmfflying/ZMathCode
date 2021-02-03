@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(longestWord(["cat","banana","dog","nana","walk","walker","dogwalker"]))
+        var nums = [0,1,0,3,12]
+        moveZeroes(&nums)
+        print(nums)
+        
     }
 }
