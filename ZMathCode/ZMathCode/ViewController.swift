@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var nums = [0,1,0,3,12]
-        moveZeroes(&nums)
-        print(nums)
+        var nums1 = [1,2,3,0,0,0]
+        merge(&nums1, 3, [2,5,6], 3)
+        print(nums1)
         
     }
 }
