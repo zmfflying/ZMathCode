@@ -12,9 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var nums1 = [1,2,3,0,0,0]
-        merge(&nums1, 3, [2,5,6], 3)
-        print(nums1)
+        print(searchMatrix([[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], 5))
         
     }
 }
