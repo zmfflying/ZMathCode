@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(threeSumClosest([-1,2,1,-4], 1))
-        
+        print(fib(4))
     }
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
 		DF13BEF925E0E5B200C7EBC4 /* 16.最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13BEF825E0E5B200C7EBC4 /* 16.最接近的三数之和.swift */; };
+		DF13BEFF25E0FE1600C7EBC4 /* 53.最大子序和.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13BEFE25E0FE1600C7EBC4 /* 53.最大子序和.swift */; };
+		DF13BF0725E1093600C7EBC4 /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF13BF0625E1093600C7EBC4 /* 509.斐波那契数.swift */; };
 		DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */; };
 		DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C6294259340B20021DB9F /* 77.组合.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
@@ -80,6 +82,8 @@
 /* Begin PBXFileReference section */
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
 		DF13BEF825E0E5B200C7EBC4 /* 16.最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.最接近的三数之和.swift"; sourceTree = "<group>"; };
+		DF13BEFE25E0FE1600C7EBC4 /* 53.最大子序和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.最大子序和.swift"; sourceTree = "<group>"; };
+		DF13BF0625E1093600C7EBC4 /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		DF1EC2D6257A258B00E7EF18 /* 93.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "93.复原IP地址.swift"; sourceTree = "<group>"; };
 		DF2C6294259340B20021DB9F /* 77.组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77.组合.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
@@ -162,6 +166,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF13BEFD25E0FD9000C7EBC4 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				DF13BEFE25E0FE1600C7EBC4 /* 53.最大子序和.swift */,
+				DF13BF0625E1093600C7EBC4 /* 509.斐波那契数.swift */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
 		DF5F99FC25BFBCA600CCE435 /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +336,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF13BEFD25E0FD9000C7EBC4 /* 动态规划 */,
 				DF5F9A6925CA3A9E00CCE435 /* 双指针 */,
 				DF5F9A1125C1155200CCE435 /* 排序 */,
 				DF5F99FC25BFBCA600CCE435 /* 数据结构 */,
@@ -476,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF5F9A1325C1156D00CCE435 /* 75.颜色分类.swift in Sources */,
+				DF13BEFF25E0FE1600C7EBC4 /* 53.最大子序和.swift in Sources */,
 				DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */,
 				DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */,
 				DF5F9A6B25CA3B0D00CCE435 /* 11.盛最多水的容器.swift in Sources */,
@@ -508,6 +523,7 @@
 				DF5F9A4025C7D57400CCE435 /* 524.通过删除字母匹配到字典里最长单词.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
 				DF9380CA25A83B3D00F36EBF /* 455.分发饼干.swift in Sources */,
+				DF13BF0725E1093600C7EBC4 /* 509.斐波那契数.swift in Sources */,
 				DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */,
 				DF9380D525A8533400F36EBF /* 209.长度最小的子数组.swift in Sources */,
 				DF93807025A58AEA00F36EBF /* 216.组合总和III.swift in Sources */,
