@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(integerBreak(2))
+        print(rob([2,1,1,2]))
     }
 }
