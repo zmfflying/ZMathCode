@@ -46,6 +46,7 @@
 		DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF964B702580765E006F5A28 /* 131.分割回文串.swift */; };
 		DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */; };
 		DFA4292725E5F3930047B2DD /* 279.完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA4292625E5F3930047B2DD /* 279.完全平方数.swift */; };
+		DFAB3A5925EE44C500CE2E7E /* 518.零钱兑换II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB3A5825EE44C500CE2E7E /* 518.零钱兑换II.swift */; };
 		DFB0AD2125BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2025BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift */; };
 		DFB0AD2625BEB31E004D49A8 /* 199.二叉树的右视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */; };
 		DFB0AD2C25BECD53004D49A8 /* 350.两个数组的交集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2B25BECD53004D49A8 /* 350.两个数组的交集II.swift */; };
@@ -123,6 +124,7 @@
 		DF964B702580765E006F5A28 /* 131.分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131.分割回文串.swift"; sourceTree = "<group>"; };
 		DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24.两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		DFA4292625E5F3930047B2DD /* 279.完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279.完全平方数.swift"; sourceTree = "<group>"; };
+		DFAB3A5825EE44C500CE2E7E /* 518.零钱兑换II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "518.零钱兑换II.swift"; sourceTree = "<group>"; };
 		DFB0AD2025BE6CF7004D49A8 /* 144.二叉树的前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144.二叉树的前序遍历.swift"; sourceTree = "<group>"; };
 		DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199.二叉树的右视图.swift"; sourceTree = "<group>"; };
 		DFB0AD2B25BECD53004D49A8 /* 350.两个数组的交集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350.两个数组的交集II.swift"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				DFA4292625E5F3930047B2DD /* 279.完全平方数.swift */,
 				DF4DBF7525E740D800CEB4B2 /* 198.打家劫舍.swift */,
 				DF42B67525E8F0D4000F1313 /* 337.打家劫舍III.swift */,
+				DFAB3A5825EE44C500CE2E7E /* 518.零钱兑换II.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */,
 				DF42B67625E8F0D4000F1313 /* 337.打家劫舍III.swift in Sources */,
 				DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */,
+				DFAB3A5925EE44C500CE2E7E /* 518.零钱兑换II.swift in Sources */,
 				DF5F9A6B25CA3B0D00CCE435 /* 11.盛最多水的容器.swift in Sources */,
 				DFFD06E1258B2B3800B5DA93 /* 47.全排列II.swift in Sources */,
 				DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */,
