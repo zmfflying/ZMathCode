@@ -67,7 +67,17 @@
  因为就同一个 coin 而言, amount >= coin的时候, amount 的组合个数, 肯定是和 amount - coin 的个数是相等的
  即 dp[amount] = dp[amount-coin]
  
- 然后再对 coins 进行迭代就好了
+ 多个 coin 的时候, dp[amount] = dp[amount] + dp[amount-coin] 即可
+ 假设 amount = 3, coins = [1, 2], dp = [1, 0, 0, 0]
+ 
+ 当 coin = 1 的时候,
+ dp[3] = dp[2] = dp[1] = dp[0] = 1
+ dp = [1, 1, 1, 1]
+ 
+ 当 coin = 2 的时候,
+ dp[2] = 1 + dp[0] = 2
+ dp[3] = 1 + dp[1] = 2
+ dp = [1, 1, 2, 2]
  
 ## 代码地址
  https://github.com/zmfflying/ZMathCode

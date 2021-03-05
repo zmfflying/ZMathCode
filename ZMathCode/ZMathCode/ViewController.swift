@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(change(5, [2]))
+        print(minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]))
     }
 }

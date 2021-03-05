@@ -51,6 +51,7 @@
 		DFB0AD2625BEB31E004D49A8 /* 199.二叉树的右视图.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */; };
 		DFB0AD2C25BECD53004D49A8 /* 350.两个数组的交集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD2B25BECD53004D49A8 /* 350.两个数组的交集II.swift */; };
 		DFB0AD3425BED2ED004D49A8 /* 389.找不同.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB0AD3325BED2ED004D49A8 /* 389.找不同.swift */; };
+		DFC2488525F233E600F19186 /* 746.使用最小花费爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2488425F233E600F19186 /* 746.使用最小花费爬楼梯.swift */; };
 		DFC2542D25E3954B0033F01A /* 343.整数拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2542C25E3954B0033F01A /* 343.整数拆分.swift */; };
 		DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */; };
 		DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD70D125709D76005E27C8 /* 206.反转链表.swift */; };
@@ -129,6 +130,7 @@
 		DFB0AD2525BEB31E004D49A8 /* 199.二叉树的右视图.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199.二叉树的右视图.swift"; sourceTree = "<group>"; };
 		DFB0AD2B25BECD53004D49A8 /* 350.两个数组的交集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350.两个数组的交集II.swift"; sourceTree = "<group>"; };
 		DFB0AD3325BED2ED004D49A8 /* 389.找不同.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "389.找不同.swift"; sourceTree = "<group>"; };
+		DFC2488425F233E600F19186 /* 746.使用最小花费爬楼梯.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "746.使用最小花费爬楼梯.swift"; sourceTree = "<group>"; };
 		DFC2542C25E3954B0033F01A /* 343.整数拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "343.整数拆分.swift"; sourceTree = "<group>"; };
 		DFC4D44825748ED300EEC86D /* 92.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92.反转链表II.swift"; sourceTree = "<group>"; };
 		DFCD70D125709D76005E27C8 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				DF4DBF7525E740D800CEB4B2 /* 198.打家劫舍.swift */,
 				DF42B67525E8F0D4000F1313 /* 337.打家劫舍III.swift */,
 				DFAB3A5825EE44C500CE2E7E /* 518.零钱兑换II.swift */,
+				DFC2488425F233E600F19186 /* 746.使用最小花费爬楼梯.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				DF5F9A6025C8F17A00CCE435 /* 面试题17.15. 最长单词.swift in Sources */,
 				DFFABA9125CCED7300A4231F /* 240.搜索二维矩阵II.swift in Sources */,
 				DF85AABC25B8031C0006C371 /* 20.有效的括号.swift in Sources */,
+				DFC2488525F233E600F19186 /* 746.使用最小花费爬楼梯.swift in Sources */,
 				DF53654C2599CE75002A8A12 /* 39.组合总和.swift in Sources */,
 				DFB0AD2C25BECD53004D49A8 /* 350.两个数组的交集II.swift in Sources */,
 				DF85AADC25BA6DE80006C371 /* 71.简化路径.swift in Sources */,
