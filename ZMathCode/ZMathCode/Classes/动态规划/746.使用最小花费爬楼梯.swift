@@ -51,6 +51,10 @@
  根据这个思路,创建两个数组,分别记录每个元素选择当前和不选择当前的最小花费
  最后在取出两个数组最后一个元素求最小值即可
  
+ 优化:
+ 不选择当前元素的花费 noCur[i] = cur[i-1]
+ 所以其实一个数组就行了
+ 
 ## 代码地址
  https://github.com/zmfflying/ZMathCode
  
@@ -63,20 +67,34 @@ func minCostClimbingStairs(_ cost: [Int]) -> Int {
     var cur: [Int] = [Int].init(repeating: 0, count: cost.count)
     cur[0] = cost[0]
     cur[1] = min(cost[0] + cost[1], cost[1])
-    
+
     //不选择自己的情况
     var noCur: [Int] = [Int].init(repeating: 0, count: cost.count)
     noCur[1] = cost[0]
-    
+
     for i in 2..<cost.count {
         //选择i的花费可能有两种:
         //第一种是选择了 i-1 和 i
         //第二种是选择了 i-2 和 i
         cur[i] = min(cur[i-1] + cost[i], cur[i-2] + cost[i])
-        
+
         //不选择i的花费只可能有一种: 选择了 i-1
         noCur[i] = cur[i-1]
     }
-    
+
     return min(cur.last!, noCur.last!)
+}
+
+
+// MARK: - 优化
+func minCostClimbingStairs1(_ cost: [Int]) -> Int {
+    var cur: [Int] = [Int].init(repeating: 0, count: cost.count)
+    cur[0] = cost[0]
+    cur[1] = min(cost[0] + cost[1], cost[1])
+    
+    for i in 2..<cost.count {
+        cur[i] = min(cur[i-1] + cost[i], cur[i-2] + cost[i])
+    }
+    
+    return min(cur.last!, cur[cost.count - 2])
 }
