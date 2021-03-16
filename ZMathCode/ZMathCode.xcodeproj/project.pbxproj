@@ -15,6 +15,7 @@
 		DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C6294259340B20021DB9F /* 77.组合.swift */; };
 		DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */; };
 		DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */; };
+		DF3C0A3C25F603D400C9A584 /* 416.分割等和子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C0A3B25F603D400C9A584 /* 416.分割等和子集.swift */; };
 		DF42B67625E8F0D4000F1313 /* 337.打家劫舍III.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF42B67525E8F0D4000F1313 /* 337.打家劫舍III.swift */; };
 		DF4DBF7625E740D800CEB4B2 /* 198.打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4DBF7525E740D800CEB4B2 /* 198.打家劫舍.swift */; };
 		DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5365462599C49D002A8A12 /* 78.子集.swift */; };
@@ -94,6 +95,7 @@
 		DF2C6294259340B20021DB9F /* 77.组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77.组合.swift"; sourceTree = "<group>"; };
 		DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		DF3C0A3B25F603D400C9A584 /* 416.分割等和子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "416.分割等和子集.swift"; sourceTree = "<group>"; };
 		DF42B67525E8F0D4000F1313 /* 337.打家劫舍III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "337.打家劫舍III.swift"; sourceTree = "<group>"; };
 		DF4DBF7525E740D800CEB4B2 /* 198.打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
 		DF5365462599C49D002A8A12 /* 78.子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "78.子集.swift"; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				DF42B67525E8F0D4000F1313 /* 337.打家劫舍III.swift */,
 				DFAB3A5825EE44C500CE2E7E /* 518.零钱兑换II.swift */,
 				DFC2488425F233E600F19186 /* 746.使用最小花费爬楼梯.swift */,
+				DF3C0A3B25F603D400C9A584 /* 416.分割等和子集.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
 				DF5F9A8225CBCAE600CCE435 /* 88.合并两个有序数组.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,
+				DF3C0A3C25F603D400C9A584 /* 416.分割等和子集.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
