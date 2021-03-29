@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(canPartition([1, 2, 11, 5]))
+        print(generateParenthesis(3))
     }
 }
