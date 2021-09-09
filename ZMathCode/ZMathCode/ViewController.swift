@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(generateParenthesis(3))
+        print(findMaxForm(["10", "0", "1"], 1, 1))
     }
 }
