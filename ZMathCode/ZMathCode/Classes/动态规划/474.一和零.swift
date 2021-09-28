@@ -52,60 +52,64 @@
  
  */
 
-
-
-
-
-
-
-
-
-
-
-
 import Foundation
-
+//二维数组
 func findMaxForm(_ strs: [String], _ m: Int, _ n: Int) -> Int {
-    var dp: [[[Int]]] = [[[Int]]].init(repeating: [[Int]].init(repeating: [Int].init(repeating: 0, count: n + 1), count: m + 1), count: strs.count)
-    var result: Int = 0
+    var strCountArr: [[Int]] = [[Int]].init(repeating: [0, 0], count: strs.count)
     for i in 0..<strs.count {
-        let str = strs[i]
-        var temp0 = 0
-        var temp1 = 0
-        let arr: [Character] = Array(str)
-        for c in arr {
+        for c in strs[i] {
             if c == "0" {
-                temp0 += 1
+                strCountArr[i][0] += 1
             } else if c == "1" {
-                temp1 += 1
+                strCountArr[i][1] += 1
             }
         }
-        
-        var curDp: [[Int]] = dp[i]
-        if i == 0 {
-            if temp0 <= m && temp1 <= n {
-                for k in temp0...m {
-                    for h in temp1...n {
-                        curDp[k][h] = 1
-                    }
-                }
-                result = 1
-            }
-        } else {
-            for j in 1...i {
-                if temp0 <= m && temp1 <= n {
-                    let preDp: [[Int]] = dp[j]
-                    for k in temp0...m {
-                        for h in temp1...n {
-                            curDp[k][h] = max(curDp[k][h], preDp[k][h] + 1)
-                            result = max(result, curDp[k][h])
-                        }
-                    }
-                }
-            }
-        }
-        
-        dp[i] = curDp
     }
-    return result
+    
+    var dp: [[Int]] = [[Int]].init(repeating: [Int].init(repeating: 0, count: n + 1), count: m + 1)
+    for i in 0..<strs.count {
+        //先记录下之前的数据,即 i-1 的数据
+        let preDp = dp
+        let temp0 = strCountArr[i][0]
+        let temp1 = strCountArr[i][1]
+        for j in 0...m {
+            for k in 0...n {
+                if j >= temp0 && k >= temp1 {
+                    dp[j][k] = max(preDp[j][k], preDp[j-temp0][k-temp1] + 1)
+                }
+            }
+        }
+    }
+    return dp[m][n]
 }
+
+//三维数组
+//func findMaxForm(_ strs: [String], _ m: Int, _ n: Int) -> Int {
+//    var dp: [[[Int]]] = [[[Int]]].init(repeating: [[Int]].init(repeating: [Int].init(repeating: 0, count: n + 1), count: m + 1), count: strs.count + 1)
+//    var strCountArr: [[Int]] = [[Int]].init(repeating: [0, 0], count: strs.count)
+//    for i in 0..<strs.count {
+//        for c in strs[i] {
+//            if c == "0" {
+//                strCountArr[i][0] += 1
+//            } else if c == "1" {
+//                strCountArr[i][1] += 1
+//            }
+//        }
+//    }
+//
+//    for i in 1...strs.count {
+//        let temp0 = strCountArr[i-1][0]
+//        let temp1 = strCountArr[i-1][1]
+//        for j in 0...m {
+//            for k in 0...n {
+//                //注意这里要先赋值一次
+//                dp[i][j][k] = dp[i - 1][j][k]
+//                if j >= temp0 && k >= temp1 {
+//                    dp[i][j][k] = max(dp[i-1][j][k], dp[i-1][j-temp0][k-temp1] + 1)
+//                }
+//
+//            }
+//        }
+//    }
+//    return dp[strs.count][m][n]
+//}
