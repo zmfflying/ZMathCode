@@ -42,7 +42,7 @@
 
 ## 测试代码
  
- print(longestCommonSubsequence("abcde", "ace"))
+ print(findMaxForm(["10","0001","111001","1","0"], 5, 3))
 
 ## 笔记
  
