@@ -10,6 +10,7 @@
 		3F51701F2702F84D00EEF4EC /* 494.目标和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51701E2702F84D00EEF4EC /* 494.目标和.swift */; };
 		3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */; };
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
+		3F6E3A9F2710200C0038E5C4 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */; };
 		3F70123A265E1BA00093DCE4 /* 64.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */; };
 		3F70123C265E21040093DCE4 /* 120.三角形最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */; };
 		3F70123E265E27C20093DCE4 /* 91.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123D265E27C20093DCE4 /* 91.解码方法.swift */; };
@@ -104,6 +105,7 @@
 		3F51701E2702F84D00EEF4EC /* 494.目标和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494.目标和.swift"; sourceTree = "<group>"; };
 		3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435.无重叠区间.swift"; sourceTree = "<group>"; };
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
+		3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
 		3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64.最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "120.三角形最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123D265E27C20093DCE4 /* 91.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "91.解码方法.swift"; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */,
 				3F51701E2702F84D00EEF4EC /* 494.目标和.swift */,
 				3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */,
+				3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -595,6 +598,7 @@
 				DF13BEF925E0E5B200C7EBC4 /* 16.最接近的三数之和.swift in Sources */,
 				DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */,
 				3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */,
+				3F6E3A9F2710200C0038E5C4 /* 5.最长回文子串.swift in Sources */,
 				DF85AAB425B6E4CF0006C371 /* 150.逆波兰表达式求值.swift in Sources */,
 				DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */,
 				3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */,

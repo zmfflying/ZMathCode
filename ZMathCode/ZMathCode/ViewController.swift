@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(eraseOverlapIntervals([[1,2], [2,3], [3,4], [1,3]]))
+        print(longestPalindrome("cbbd"))
     }
 }
