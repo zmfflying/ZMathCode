@@ -11,11 +11,13 @@
 		3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */; };
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
 		3F6E3A9F2710200C0038E5C4 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */; };
+		3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */; };
 		3F70123A265E1BA00093DCE4 /* 64.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */; };
 		3F70123C265E21040093DCE4 /* 120.三角形最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */; };
 		3F70123E265E27C20093DCE4 /* 91.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123D265E27C20093DCE4 /* 91.解码方法.swift */; };
 		3F701240265E44470093DCE4 /* 1027.最长等差数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */; };
 		3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */; };
+		3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
@@ -106,11 +108,13 @@
 		3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435.无重叠区间.swift"; sourceTree = "<group>"; };
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
 		3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
+		3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
 		3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64.最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "120.三角形最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123D265E27C20093DCE4 /* 91.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "91.解码方法.swift"; sourceTree = "<group>"; };
 		3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1027.最长等差数列.swift"; sourceTree = "<group>"; };
 		3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
+		3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "140. 单词拆分II.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
@@ -237,6 +241,8 @@
 				3F51701E2702F84D00EEF4EC /* 494.目标和.swift */,
 				3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */,
 				3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */,
+				3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */,
+				3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -593,6 +599,7 @@
 				DF65A56625B0557A00392FC0 /* 239.滑动窗口最大值.swift in Sources */,
 				DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */,
 				DF5F9A0625BFFF6A00CCE435 /* 146.LRU 缓存机制.swift in Sources */,
+				3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */,
 				DF13BEF925E0E5B200C7EBC4 /* 16.最接近的三数之和.swift in Sources */,
@@ -621,6 +628,7 @@
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
 				DFFB36FD2601A05D00B305E1 /* 152.乘积最大子数组.swift in Sources */,
+				3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */,
 				3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */,
 				DF5F9A8225CBCAE600CCE435 /* 88.合并两个有序数组.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,

@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(longestPalindrome("cbbd"))
+        print(wordBreak1("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]))
     }
 }
