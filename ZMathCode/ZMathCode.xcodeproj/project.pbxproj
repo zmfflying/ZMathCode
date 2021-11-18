@@ -17,6 +17,7 @@
 		3F70123E265E27C20093DCE4 /* 91.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123D265E27C20093DCE4 /* 91.解码方法.swift */; };
 		3F701240265E44470093DCE4 /* 1027.最长等差数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */; };
 		3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */; };
+		3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */; };
 		3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
@@ -114,6 +115,7 @@
 		3F70123D265E27C20093DCE4 /* 91.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "91.解码方法.swift"; sourceTree = "<group>"; };
 		3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1027.最长等差数列.swift"; sourceTree = "<group>"; };
 		3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
+		3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题17.13.恢复空格.swift"; sourceTree = "<group>"; };
 		3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "140. 单词拆分II.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */,
 				3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */,
 				3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */,
+				3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 				DF5F9A0625BFFF6A00CCE435 /* 146.LRU 缓存机制.swift in Sources */,
 				3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
+				3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */,
 				3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */,
 				DF13BEF925E0E5B200C7EBC4 /* 16.最接近的三数之和.swift in Sources */,
 				DF65A54525AC74D600392FC0 /* 3.无重复字符的最长子串.swift in Sources */,

@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(wordBreak1("pineapplepenapple", ["apple", "pen", "applepen", "pine", "pineapple"]))
+        print(respace(["looked","just","like","her","brother"], "jesslookedjustliketimherbrother"))
     }
 }
