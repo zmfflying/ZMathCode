@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
+		3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */; };
 		3F51701F2702F84D00EEF4EC /* 494.目标和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51701E2702F84D00EEF4EC /* 494.目标和.swift */; };
 		3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */; };
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
@@ -107,6 +108,7 @@
 
 /* Begin PBXFileReference section */
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
+		3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "931.下降路径最小和.swift"; sourceTree = "<group>"; };
 		3F51701E2702F84D00EEF4EC /* 494.目标和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494.目标和.swift"; sourceTree = "<group>"; };
 		3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435.无重叠区间.swift"; sourceTree = "<group>"; };
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */,
 				3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */,
 				3F1DF181274641D10034DF46 /* 221.最大正方形.swift */,
+				3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -636,6 +639,7 @@
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
 				DFFB36FD2601A05D00B305E1 /* 152.乘积最大子数组.swift in Sources */,
+				3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */,
 				3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */,
 				3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */,
 				DF5F9A8225CBCAE600CCE435 /* 88.合并两个有序数组.swift in Sources */,
