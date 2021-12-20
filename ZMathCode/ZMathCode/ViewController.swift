@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(minFallingPathSum([[-19,57],[-40,-5]]))
+        print(findLength([1,2,3,2,1],[3,2,1,4,7]))
     }
 }

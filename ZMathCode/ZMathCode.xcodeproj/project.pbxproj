@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
 		3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */; };
+		3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */; };
 		3F51701F2702F84D00EEF4EC /* 494.目标和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51701E2702F84D00EEF4EC /* 494.目标和.swift */; };
 		3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */; };
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
@@ -109,6 +110,7 @@
 /* Begin PBXFileReference section */
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
 		3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "931.下降路径最小和.swift"; sourceTree = "<group>"; };
+		3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "718.最长重复子数组.swift"; sourceTree = "<group>"; };
 		3F51701E2702F84D00EEF4EC /* 494.目标和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494.目标和.swift"; sourceTree = "<group>"; };
 		3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435.无重叠区间.swift"; sourceTree = "<group>"; };
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 				3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */,
 				3F1DF181274641D10034DF46 /* 221.最大正方形.swift */,
 				3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */,
+				3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				DFFD06E1258B2B3800B5DA93 /* 47.全排列II.swift in Sources */,
 				DF0F733226083964006D449E /* 22.括号生成.swift in Sources */,
 				DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */,
+				3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */,
 				DFC2542D25E3954B0033F01A /* 343.整数拆分.swift in Sources */,
 				DF1EC2D7257A258B00E7EF18 /* 93.复原IP地址.swift in Sources */,
 				3F70123C265E21040093DCE4 /* 120.三角形最小路径和.swift in Sources */,
