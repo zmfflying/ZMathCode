@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(findLength([1,2,3,2,1],[3,2,1,4,7]))
+        print(lenLongestFibSubseq([1,2,3,4,5,6,7,8]))
     }
 }
