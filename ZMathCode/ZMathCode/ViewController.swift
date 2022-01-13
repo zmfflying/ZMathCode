@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(minDistance("horse", "ros"))
+        print(subarraySum([1,1,1], 2))
     }
 }
