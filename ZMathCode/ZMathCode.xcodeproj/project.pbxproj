@@ -15,6 +15,7 @@
 		3F670A57278FF76500E877C7 /* 560.和为 K 的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F670A56278FF76500E877C7 /* 560.和为 K 的子数组.swift */; };
 		3F670A5A2790179500E877C7 /* 236.二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F670A592790179500E877C7 /* 236.二叉树的最近公共祖先.swift */; };
 		3F670A5C2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F670A5B2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift */; };
+		3F670A5E2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F670A5D2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift */; };
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
 		3F6E3A9F2710200C0038E5C4 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */; };
 		3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */; };
@@ -121,6 +122,7 @@
 		3F670A56278FF76500E877C7 /* 560.和为 K 的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560.和为 K 的子数组.swift"; sourceTree = "<group>"; };
 		3F670A592790179500E877C7 /* 236.二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236.二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		3F670A5B2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转换为二叉搜索树.swift"; sourceTree = "<group>"; };
+		3F670A5D2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "450.删除二叉搜索树中的节点.swift"; sourceTree = "<group>"; };
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
 		3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
 		3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			children = (
 				3F670A592790179500E877C7 /* 236.二叉树的最近公共祖先.swift */,
 				3F670A5B2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift */,
+				3F670A5D2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -636,6 +639,7 @@
 				DF65A55925AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift in Sources */,
 				DF4DBF7625E740D800CEB4B2 /* 198.打家劫舍.swift in Sources */,
 				DFFB372E2602F41000B305E1 /* 121.买卖股票的最佳时机.swift in Sources */,
+				3F670A5E2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift in Sources */,
 				3FE9085A2771B3B300C9EB0B /* 72.编辑距离.swift in Sources */,
 				3F670A5C2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift in Sources */,
 				DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */,
