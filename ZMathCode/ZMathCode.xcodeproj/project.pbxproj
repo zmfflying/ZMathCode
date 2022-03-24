@@ -27,6 +27,7 @@
 		3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */; };
 		3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */; };
 		3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */; };
+		3FAB42A627EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		3FE908562770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */; };
@@ -135,6 +136,7 @@
 		3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题17.13.恢复空格.swift"; sourceTree = "<group>"; };
 		3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "140. 单词拆分II.swift"; sourceTree = "<group>"; };
+		3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "129.求根节点到叶节点数字之和.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				3F670A5B2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift */,
 				3F670A5D2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift */,
 				3F670A5F2797B30E00E877C7 /* 437.路径总和III.swift */,
+				3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -639,6 +642,7 @@
 				3FE908562770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift in Sources */,
 				DF93807525A5A83700F36EBF /* 90.子集II.swift in Sources */,
 				DF93807B25A5BDD300F36EBF /* 122.买卖股票的最佳时机II.swift in Sources */,
+				3FAB42A627EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift in Sources */,
 				DF65A55925AEEDBC00392FC0 /* 438.找到字符串中所有字母异位词.swift in Sources */,
 				DF4DBF7625E740D800CEB4B2 /* 198.打家劫舍.swift in Sources */,
 				DFFB372E2602F41000B305E1 /* 121.买卖股票的最佳时机.swift in Sources */,
