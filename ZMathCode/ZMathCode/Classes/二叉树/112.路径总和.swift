@@ -67,19 +67,47 @@
 import Foundation
 
 func hasPathSum(_ root: TreeNode?, _ targetSum: Int) -> Bool {
+    var res: Bool = false
     
-    func p_help(node: TreeNode?, sum: Int) -> Bool {
+    func p_help(node: TreeNode?, sum: Int) {
         if node == nil {
-            return false
+            return
         }
         
         let curSum: Int = sum + node!.val
         if curSum == targetSum && node?.left == nil && node?.right == nil {
-            return true
+            res = true
+            return
         }
         
-        return p_help(node: node?.left, sum: curSum) || p_help(node: node?.right, sum: curSum)
+        p_help(node: node?.left, sum: curSum)
+        
+        if res {
+            return
+        }
+        p_help(node: node?.right, sum: curSum)
     }
     
-    return p_help(node: root, sum: 0)
+    p_help(node: root, sum: 0)
+    return res
 }
+
+
+//func hasPathSum(_ root: TreeNode?, _ targetSum: Int) -> Bool {
+//
+//    func p_help(node: TreeNode?, sum: Int) -> Bool {
+//        if node == nil {
+//            return false
+//        }
+//
+//        let curSum: Int = sum + node!.val
+//        if curSum == targetSum && node?.left == nil && node?.right == nil {
+//            return true
+//        }
+//
+//        return p_help(node: node?.left, sum: curSum) || p_help(node: node?.right, sum: curSum)
+//    }
+//
+//    return p_help(node: root, sum: 0)
+//}
+
