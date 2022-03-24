@@ -53,8 +53,6 @@
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 ## 测试代码
- 
-## 笔记
  let tree6 = TreeNode.init(7, nil, nil)
  let tree5 = TreeNode.init(4, nil, nil)
  let tree4 = TreeNode.init(2, nil, nil)
@@ -62,6 +60,9 @@
  let tree2 = TreeNode.init(3, tree4, tree5)
  let tree1 = TreeNode.init(5, tree2, tree3)
  print(deleteNode(tree1, 3)?.val)
+ 
+## 笔记
+
  
 ## 代码地址
  https://github.com/zmfflying/ZMathCode
