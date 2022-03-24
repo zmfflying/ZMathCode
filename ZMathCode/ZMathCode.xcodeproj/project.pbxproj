@@ -30,6 +30,7 @@
 		3FAB42A627EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */; };
 		3FAB42A827EC53D900EF71B0 /* 257.二叉树的所有路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A727EC53D900EF71B0 /* 257.二叉树的所有路径.swift */; };
 		3FAB42AA27EC6CB100EF71B0 /* 404.左叶子之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */; };
+		3FAB42AC27EC70AA00EF71B0 /* 112.路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		3FE908562770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */; };
@@ -141,6 +142,7 @@
 		3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "129.求根节点到叶节点数字之和.swift"; sourceTree = "<group>"; };
 		3FAB42A727EC53D900EF71B0 /* 257.二叉树的所有路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257.二叉树的所有路径.swift"; sourceTree = "<group>"; };
 		3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404.左叶子之和.swift"; sourceTree = "<group>"; };
+		3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112.路径总和.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */,
 				3FAB42A727EC53D900EF71B0 /* 257.二叉树的所有路径.swift */,
 				3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */,
+				3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -664,6 +667,7 @@
 				DF65A55025AD819200392FC0 /* 76.最小覆盖子串.swift in Sources */,
 				DF5F9A0625BFFF6A00CCE435 /* 146.LRU 缓存机制.swift in Sources */,
 				3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */,
+				3FAB42AC27EC70AA00EF71B0 /* 112.路径总和.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				3FAB42AA27EC6CB100EF71B0 /* 404.左叶子之和.swift in Sources */,
 				3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */,
