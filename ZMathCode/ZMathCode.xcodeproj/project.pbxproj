@@ -20,6 +20,7 @@
 		3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */; };
 		3F6E3A9F2710200C0038E5C4 /* 5.最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */; };
 		3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */; };
+		3F6F572E27FEDB6900EADE37 /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F572D27FEDB6900EADE37 /* 101.对称二叉树.swift */; };
 		3F70123A265E1BA00093DCE4 /* 64.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */; };
 		3F70123C265E21040093DCE4 /* 120.三角形最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */; };
 		3F70123E265E27C20093DCE4 /* 91.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123D265E27C20093DCE4 /* 91.解码方法.swift */; };
@@ -133,6 +134,7 @@
 		3F6A03FB26672A3500A0D5A2 /* 474.一和零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "474.一和零.swift"; sourceTree = "<group>"; };
 		3F6E3A9E2710200C0038E5C4 /* 5.最长回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5.最长回文子串.swift"; sourceTree = "<group>"; };
 		3F6E3AA02710371D0038E5C4 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
+		3F6F572D27FEDB6900EADE37 /* 101.对称二叉树.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		3F701239265E1BA00093DCE4 /* 64.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64.最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123B265E21040093DCE4 /* 120.三角形最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "120.三角形最小路径和.swift"; sourceTree = "<group>"; };
 		3F70123D265E27C20093DCE4 /* 91.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "91.解码方法.swift"; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */,
 				3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */,
 				3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */,
+				3F6F572D27FEDB6900EADE37 /* 101.对称二叉树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -710,6 +713,7 @@
 				3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */,
 				3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */,
 				3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */,
+				3F6F572E27FEDB6900EADE37 /* 101.对称二叉树.swift in Sources */,
 				DF5F9A8225CBCAE600CCE435 /* 88.合并两个有序数组.swift in Sources */,
 				E21CA55124A1AFB7005C8718 /* AppDelegate.swift in Sources */,
 				3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */,
