@@ -18,6 +18,6 @@ class ViewController: UIViewController {
         let tree3 = TreeNode.init(20, tree4, tree5)
         let tree2 = TreeNode.init(9, nil, nil)
         let tree1 = TreeNode.init(3, tree2, tree3)
-        print(minDepth(tree1))
+        print(levelOrder(tree1))
     }
 }
