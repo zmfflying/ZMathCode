@@ -38,6 +38,7 @@
 		3FAB42AE27EC8BEE00EF71B0 /* 110.平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
+		3FD7E99328057BA200BBC3E6 /* 100.相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */; };
 		3FE908562770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */; };
 		3FE9085A2771B3B300C9EB0B /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908592771B3B300C9EB0B /* 72.编辑距离.swift */; };
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
@@ -155,6 +156,7 @@
 		3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110.平衡二叉树.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
+		3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100.相同的树.swift"; sourceTree = "<group>"; };
 		3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
 		3FE908592771B3B300C9EB0B /* 72.编辑距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				3F6F572F27FEE6E600EADE37 /* 111.二叉树的最小深度.swift */,
 				3F6F573327FFE43800EADE37 /* 102.二叉树的层序遍历.swift */,
 				3F6F573528041C7600EADE37 /* 113.路径总和II.swift */,
+				3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -700,6 +703,7 @@
 				3FAB42A827EC53D900EF71B0 /* 257.二叉树的所有路径.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
 				DF9380CA25A83B3D00F36EBF /* 455.分发饼干.swift in Sources */,
+				3FD7E99328057BA200BBC3E6 /* 100.相同的树.swift in Sources */,
 				DF13BF0725E1093600C7EBC4 /* 509.斐波那契数.swift in Sources */,
 				DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */,
 				3F670A57278FF76500E877C7 /* 560.和为 K 的子数组.swift in Sources */,

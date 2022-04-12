@@ -13,9 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tree3 = TreeNode.init(4, nil, nil)
+        let tree3 = TreeNode.init(3, nil, nil)
         let tree2 = TreeNode.init(2, nil, nil)
         let tree1 = TreeNode.init(1, tree2, tree3)
-        print(pathSum1(tree1, 5))
+        
+        let tree6 = TreeNode.init(3, nil, nil)
+        let tree5 = TreeNode.init(2, nil, nil)
+        let tree4 = TreeNode.init(1, tree5, tree6)
+        print(isSameTree(tree1, tree4))
     }
 }
