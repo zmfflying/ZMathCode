@@ -13,6 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(search([-1,0,3,5,9,12], 2))
+        print(mySqrt(10))
     }
 }
