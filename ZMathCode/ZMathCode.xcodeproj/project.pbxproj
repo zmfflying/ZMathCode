@@ -39,6 +39,7 @@
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		3FD7E99328057BA200BBC3E6 /* 100.相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */; };
+		3FD7E9962805818100BBC3E6 /* 704.二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E9952805818100BBC3E6 /* 704.二分查找.swift */; };
 		3FE908562770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */; };
 		3FE9085A2771B3B300C9EB0B /* 72.编辑距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE908592771B3B300C9EB0B /* 72.编辑距离.swift */; };
 		DF06082E25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */; };
@@ -157,6 +158,7 @@
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100.相同的树.swift"; sourceTree = "<group>"; };
+		3FD7E9952805818100BBC3E6 /* 704.二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704.二分查找.swift"; sourceTree = "<group>"; };
 		3FE908552770850D00C9EB0B /* 873.最长的斐波那契子序列的长度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "873.最长的斐波那契子序列的长度.swift"; sourceTree = "<group>"; };
 		3FE908592771B3B300C9EB0B /* 72.编辑距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "72.编辑距离.swift"; sourceTree = "<group>"; };
 		DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
@@ -283,6 +285,14 @@
 				3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */,
 			);
 			path = "二叉树";
+			sourceTree = "<group>";
+		};
+		3FD7E9942805815200BBC3E6 /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				3FD7E9952805818100BBC3E6 /* 704.二分查找.swift */,
+			);
+			path = "二分查找";
 			sourceTree = "<group>";
 		};
 		DF13BEFD25E0FD9000C7EBC4 /* 动态规划 */ = {
@@ -485,6 +495,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3FD7E9942805815200BBC3E6 /* 二分查找 */,
 				3F670A582790177700E877C7 /* 二叉树 */,
 				3F670A55278FF75500E877C7 /* 前缀和 */,
 				DF13BEFD25E0FD9000C7EBC4 /* 动态规划 */,
@@ -699,6 +710,7 @@
 				DFFA1CFC2579D15800EB94B8 /* 17.电话号码的字母组合.swift in Sources */,
 				3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */,
 				DF9380CF25A8403D00F36EBF /* 392.判断子序列.swift in Sources */,
+				3FD7E9962805818100BBC3E6 /* 704.二分查找.swift in Sources */,
 				DF5F9A4025C7D57400CCE435 /* 524.通过删除字母匹配到字典里最长单词.swift in Sources */,
 				3FAB42A827EC53D900EF71B0 /* 257.二叉树的所有路径.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
