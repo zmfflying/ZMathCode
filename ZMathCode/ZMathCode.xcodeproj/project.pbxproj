@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */; };
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
 		3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */; };
 		3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */; };
@@ -128,6 +129,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "695.岛屿的最大面积.swift"; sourceTree = "<group>"; };
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
 		3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "931.下降路径最小和.swift"; sourceTree = "<group>"; };
 		3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "718.最长重复子数组.swift"; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF37B8E2808177B001AA88B /* 130.被围绕的区域.swift */,
+				3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 				DF5F9A7A25CA917B00CCE435 /* 283.移动零.swift in Sources */,
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
+				3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */,
 				DFFB36FD2601A05D00B305E1 /* 152.乘积最大子数组.swift in Sources */,
 				3F6F573628041C7600EADE37 /* 113.路径总和II.swift in Sources */,
 				3F670A5A2790179500E877C7 /* 236.二叉树的最近公共祖先.swift in Sources */,
