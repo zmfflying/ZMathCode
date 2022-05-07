@@ -39,6 +39,7 @@
 		3FAB42AC27EC70AA00EF71B0 /* 112.路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */; };
 		3FAB42AE27EC8BEE00EF71B0 /* 110.平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */; };
 		3FB8552B28264019002218DA /* 1306.跳跃游戏III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */; };
+		3FB8552D28264D7F002218DA /* 515.在每个树行中找最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8552C28264D7F002218DA /* 515.在每个树行中找最大值.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		3FD7E99328057BA200BBC3E6 /* 100.相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */; };
@@ -163,6 +164,7 @@
 		3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112.路径总和.swift"; sourceTree = "<group>"; };
 		3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110.平衡二叉树.swift"; sourceTree = "<group>"; };
 		3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1306.跳跃游戏III.swift"; sourceTree = "<group>"; };
+		3FB8552C28264D7F002218DA /* 515.在每个树行中找最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "515.在每个树行中找最大值.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100.相同的树.swift"; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 			children = (
 				3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */,
 				3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */,
+				3FB8552C28264D7F002218DA /* 515.在每个树行中找最大值.swift */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -692,6 +695,7 @@
 				DF5F9A6B25CA3B0D00CCE435 /* 11.盛最多水的容器.swift in Sources */,
 				DFFD06E1258B2B3800B5DA93 /* 47.全排列II.swift in Sources */,
 				DF0F733226083964006D449E /* 22.括号生成.swift in Sources */,
+				3FB8552D28264D7F002218DA /* 515.在每个树行中找最大值.swift in Sources */,
 				DF964B712580765E006F5A28 /* 131.分割回文串.swift in Sources */,
 				3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */,
 				DFC2542D25E3954B0033F01A /* 343.整数拆分.swift in Sources */,
