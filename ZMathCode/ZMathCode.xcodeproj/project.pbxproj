@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */; };
+		3F12A0122823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */; };
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
 		3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */; };
 		3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */; };
@@ -130,6 +131,7 @@
 
 /* Begin PBXFileReference section */
 		3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "695.岛屿的最大面积.swift"; sourceTree = "<group>"; };
+		3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1345.跳跃游戏 IV.swift"; sourceTree = "<group>"; };
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
 		3F1DF18327477F5B0034DF46 /* 931.下降路径最小和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "931.下降路径最小和.swift"; sourceTree = "<group>"; };
 		3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "718.最长重复子数组.swift"; sourceTree = "<group>"; };
@@ -264,6 +266,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F12A0102823B81400DD9E5E /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
 		3F670A55278FF75500E877C7 /* 前缀和 */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,6 +521,7 @@
 		E21CA58024A1B083005C8718 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3F12A0102823B81400DD9E5E /* BFS */,
 				3FF37B8D280815BE001AA88B /* DFS */,
 				3FD7E9942805815200BBC3E6 /* 二分查找 */,
 				3F670A582790177700E877C7 /* 二叉树 */,
@@ -716,6 +727,7 @@
 				DF5F9A0625BFFF6A00CCE435 /* 146.LRU 缓存机制.swift in Sources */,
 				3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */,
 				3FAB42AC27EC70AA00EF71B0 /* 112.路径总和.swift in Sources */,
+				3F12A0122823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift in Sources */,
 				DFCD70D225709D76005E27C8 /* 206.反转链表.swift in Sources */,
 				3FAB42AA27EC6CB100EF71B0 /* 404.左叶子之和.swift in Sources */,
 				3F6F573427FFE43800EADE37 /* 102.二叉树的层序遍历.swift in Sources */,
