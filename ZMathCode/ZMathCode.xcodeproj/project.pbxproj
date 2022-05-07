@@ -38,6 +38,7 @@
 		3FAB42AA27EC6CB100EF71B0 /* 404.左叶子之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */; };
 		3FAB42AC27EC70AA00EF71B0 /* 112.路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */; };
 		3FAB42AE27EC8BEE00EF71B0 /* 110.平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */; };
+		3FB8552B28264019002218DA /* 1306.跳跃游戏III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */; };
 		3FBA2CED265F419800BC8347 /* 376.摆动序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */; };
 		3FBA2D392660C44C00BC8347 /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */; };
 		3FD7E99328057BA200BBC3E6 /* 100.相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */; };
@@ -161,6 +162,7 @@
 		3FAB42A927EC6CB100EF71B0 /* 404.左叶子之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404.左叶子之和.swift"; sourceTree = "<group>"; };
 		3FAB42AB27EC70AA00EF71B0 /* 112.路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112.路径总和.swift"; sourceTree = "<group>"; };
 		3FAB42AD27EC8BEE00EF71B0 /* 110.平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110.平衡二叉树.swift"; sourceTree = "<group>"; };
+		3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1306.跳跃游戏III.swift"; sourceTree = "<group>"; };
 		3FBA2CEC265F419800BC8347 /* 376.摆动序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "376.摆动序列.swift"; sourceTree = "<group>"; };
 		3FBA2D382660C44C00BC8347 /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		3FD7E99228057BA200BBC3E6 /* 100.相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100.相同的树.swift"; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */,
+				3FB8552A28264019002218DA /* 1306.跳跃游戏III.swift */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -764,6 +767,7 @@
 				E21CA55524A1AFB7005C8718 /* ViewController.swift in Sources */,
 				DF387DBD2577624900DA44FA /* 203.移除链表元素.swift in Sources */,
 				DF5F9A7A25CA917B00CCE435 /* 283.移动零.swift in Sources */,
+				3FB8552B28264019002218DA /* 1306.跳跃游戏III.swift in Sources */,
 				DF387DC2257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift in Sources */,
 				DF2C6295259340B20021DB9F /* 77.组合.swift in Sources */,
 				3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */,

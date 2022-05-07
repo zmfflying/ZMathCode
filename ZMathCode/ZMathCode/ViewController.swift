@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(minJumps([100,-23,-23,404,100,23,23,23,3,404]))
+        print(canReach([4,2,3,0,3,1,2], 5))
     }
 }
