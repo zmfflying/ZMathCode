@@ -12,12 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let tree6 = TreeNode.init(9, nil, nil)
-        let tree5 = TreeNode.init(3, nil, nil)
-        let tree4 = TreeNode.init(5, nil, nil)
-        let tree3 = TreeNode.init(2, nil, tree6)
-        let tree2 = TreeNode.init(3, tree4, tree5)
-        let tree1 = TreeNode.init(1, tree2, tree3)
-        print(largestValues(tree1))
+        let l1 = ListNode(3)
+        let l2 = ListNode(2)
+        let l3 = ListNode(0)
+        let l4 = ListNode(-4)
+        l1.next = l2
+        l2.next = l3
+        l3.next = l4
+        l4.next = l2
+        print(hasCycle(l1))
     }
 }

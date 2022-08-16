@@ -31,6 +31,7 @@
 		3F70123E265E27C20093DCE4 /* 91.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123D265E27C20093DCE4 /* 91.解码方法.swift */; };
 		3F701240265E44470093DCE4 /* 1027.最长等差数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */; };
 		3F701242265E4ECF0093DCE4 /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */; };
+		3F8C321128AB444200549721 /* 141.环形链表_双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */; };
 		3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */; };
 		3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */; };
 		3FAB42A627EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */; };
@@ -156,6 +157,7 @@
 		3F70123D265E27C20093DCE4 /* 91.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "91.解码方法.swift"; sourceTree = "<group>"; };
 		3F70123F265E44470093DCE4 /* 1027.最长等差数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1027.最长等差数列.swift"; sourceTree = "<group>"; };
 		3F701241265E4ECF0093DCE4 /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
+		3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表_双指针.swift"; sourceTree = "<group>"; };
 		3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题17.13.恢复空格.swift"; sourceTree = "<group>"; };
 		3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "140. 单词拆分II.swift"; sourceTree = "<group>"; };
 		3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "129.求根节点到叶节点数字之和.swift"; sourceTree = "<group>"; };
@@ -309,6 +311,14 @@
 			path = "二叉树";
 			sourceTree = "<group>";
 		};
+		3F8C320F28AB43BA00549721 /* 双指针技巧 */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */,
+			);
+			path = "双指针技巧";
+			sourceTree = "<group>";
+		};
 		3FD7E9942805815200BBC3E6 /* 二分查找 */ = {
 			isa = PBXGroup;
 			children = (
@@ -444,6 +454,7 @@
 		DFCD70D025709C91005E27C8 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				3F8C320F28AB43BA00549721 /* 双指针技巧 */,
 				E21CA58224A1B083005C8718 /* 2.两数相加.swift */,
 				DFCD70D125709D76005E27C8 /* 206.反转链表.swift */,
 				DF387DBC2577624900DA44FA /* 203.移除链表元素.swift */,
@@ -749,6 +760,7 @@
 				3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */,
 				DF9380CF25A8403D00F36EBF /* 392.判断子序列.swift in Sources */,
 				3FD7E9962805818100BBC3E6 /* 704.二分查找.swift in Sources */,
+				3F8C321128AB444200549721 /* 141.环形链表_双指针.swift in Sources */,
 				DF5F9A4025C7D57400CCE435 /* 524.通过删除字母匹配到字典里最长单词.swift in Sources */,
 				3FAB42A827EC53D900EF71B0 /* 257.二叉树的所有路径.swift in Sources */,
 				DF965D8925788EEF009C4FC3 /* 24.两两交换链表中的节点.swift in Sources */,
