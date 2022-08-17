@@ -60,7 +60,7 @@
  l2.next = l3
  l3.next = l4
  l4.next = l2
- print(hasCycle(l1))
+ print("\(String(describing: detectCycle(l1)))")
  
 ## 笔记:
  快慢指针判断环
