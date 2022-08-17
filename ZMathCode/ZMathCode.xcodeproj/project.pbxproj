@@ -34,6 +34,7 @@
 		3F8C321128AB444200549721 /* 141.环形链表_双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */; };
 		3F8C321328AB49CE00549721 /* 142.环形链表II_双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C321228AB49CE00549721 /* 142.环形链表II_双指针.swift */; };
 		3F8C321828ACC82100549721 /* 160.相交链表_双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C321728ACC82100549721 /* 160.相交链表_双指针.swift */; };
+		3F8C321A28ACCF6E00549721 /* 21.合并两个有序链表_双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C321928ACCF6E00549721 /* 21.合并两个有序链表_双指针.swift */; };
 		3F94CA57273E07BA0053A979 /* 面试题17.13.恢复空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */; };
 		3FA6CD77271FEA4B0006C691 /* 140. 单词拆分II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */; };
 		3FAB42A627EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */; };
@@ -162,6 +163,7 @@
 		3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表_双指针.swift"; sourceTree = "<group>"; };
 		3F8C321228AB49CE00549721 /* 142.环形链表II_双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142.环形链表II_双指针.swift"; sourceTree = "<group>"; };
 		3F8C321728ACC82100549721 /* 160.相交链表_双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160.相交链表_双指针.swift"; sourceTree = "<group>"; };
+		3F8C321928ACCF6E00549721 /* 21.合并两个有序链表_双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表_双指针.swift"; sourceTree = "<group>"; };
 		3F94CA56273E07BA0053A979 /* 面试题17.13.恢复空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题17.13.恢复空格.swift"; sourceTree = "<group>"; };
 		3FA6CD76271FEA4B0006C691 /* 140. 单词拆分II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "140. 单词拆分II.swift"; sourceTree = "<group>"; };
 		3FAB42A527EC50BF00EF71B0 /* 129.求根节点到叶节点数字之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "129.求根节点到叶节点数字之和.swift"; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 				3F8C321028AB444200549721 /* 141.环形链表_双指针.swift */,
 				3F8C321228AB49CE00549721 /* 142.环形链表II_双指针.swift */,
 				3F8C321728ACC82100549721 /* 160.相交链表_双指针.swift */,
+				3F8C321928ACCF6E00549721 /* 21.合并两个有序链表_双指针.swift */,
 			);
 			path = "双指针技巧";
 			sourceTree = "<group>";
@@ -739,6 +742,7 @@
 				DFFB372E2602F41000B305E1 /* 121.买卖股票的最佳时机.swift in Sources */,
 				3F670A5E2796B4D200E877C7 /* 450.删除二叉搜索树中的节点.swift in Sources */,
 				3FE9085A2771B3B300C9EB0B /* 72.编辑距离.swift in Sources */,
+				3F8C321A28ACCF6E00549721 /* 21.合并两个有序链表_双指针.swift in Sources */,
 				3F670A5C2795489400E877C7 /* 108.将有序数组转换为二叉搜索树.swift in Sources */,
 				DF5365472599C49D002A8A12 /* 78.子集.swift in Sources */,
 				DF5F9A7325CA4FD900CCE435 /* 26.删除排序数组中的重复项.swift in Sources */,

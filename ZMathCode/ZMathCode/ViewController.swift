@@ -14,13 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let l1 = ListNode(1)
         let l2 = ListNode(2)
-        let l3 = ListNode(3)
-        let l4 = ListNode(4)
-        let l5 = ListNode(5)
+        let l3 = ListNode(4)
+        let l4 = ListNode(1)
+        let l5 = ListNode(3)
+        let l6 = ListNode(4)
         l1.next = l2
         l2.next = l3
-        l3.next = l4
-        l5.next = l3
-        print("\(String(describing: getIntersectionNode(l1, l5)))")
+        l4.next = l5
+        l5.next = l6
+        print("\(String(describing: mergeTwoLists(l1, l4)))")
     }
 }

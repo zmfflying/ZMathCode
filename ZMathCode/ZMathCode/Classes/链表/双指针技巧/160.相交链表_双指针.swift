@@ -87,7 +87,7 @@
  l2.next = l3
  l3.next = l4
  l5.next = l3
- print("\(String(describing: detectCycle(l1)))")
+ print("\(String(describing: getIntersectionNode(l1, l5)))")
  
 ## 笔记:
  a = 1 2 3 4
