@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F10451628ADD50D00271E7D /* 23.合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */; };
 		3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */; };
 		3F12A0122823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */; };
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
@@ -136,6 +137,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23.合并K个升序链表.swift"; sourceTree = "<group>"; };
 		3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "695.岛屿的最大面积.swift"; sourceTree = "<group>"; };
 		3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1345.跳跃游戏 IV.swift"; sourceTree = "<group>"; };
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 				DF06082D25773027000E5D55 /* 剑指 Offer18.删除链表的节点.swift */,
 				DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */,
 				DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */,
+				3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -803,6 +806,7 @@
 				3F6F573628041C7600EADE37 /* 113.路径总和II.swift in Sources */,
 				3F670A5A2790179500E877C7 /* 236.二叉树的最近公共祖先.swift in Sources */,
 				3F1DF18427477F5B0034DF46 /* 931.下降路径最小和.swift in Sources */,
+				3F10451628ADD50D00271E7D /* 23.合并K个升序链表.swift in Sources */,
 				3F6E3AA12710371D0038E5C4 /* 139.单词拆分.swift in Sources */,
 				3F6A03FC26672A3500A0D5A2 /* 474.一和零.swift in Sources */,
 				3F6F572E27FEDB6900EADE37 /* 101.对称二叉树.swift in Sources */,

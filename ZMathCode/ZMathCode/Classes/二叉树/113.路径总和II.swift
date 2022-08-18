@@ -59,7 +59,7 @@ func pathSum1(_ root: TreeNode?, _ targetSum: Int) -> [[Int]] {
         return []
     }
     
-    var reslut: [[Int]] = [[Int]].init()
+    var result: [[Int]] = [[Int]].init()
     var dp: [Int] = [Int].init()
     var curSum: Int = 0
     
@@ -71,7 +71,7 @@ func pathSum1(_ root: TreeNode?, _ targetSum: Int) -> [[Int]] {
         curSum += node!.val
         
         if node?.left == nil && node?.right == nil && curSum == targetSum {
-            reslut.append(dp)
+            result.append(dp)
         } else {
             p_help(node: node?.left)
             p_help(node: node?.right)
@@ -80,5 +80,5 @@ func pathSum1(_ root: TreeNode?, _ targetSum: Int) -> [[Int]] {
         dp.removeLast()
     }
     p_help(node: root)
-    return reslut
+    return result
 }

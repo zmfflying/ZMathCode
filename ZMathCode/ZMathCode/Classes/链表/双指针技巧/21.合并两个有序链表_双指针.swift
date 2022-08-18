@@ -47,7 +47,7 @@
  l2.next = l3
  l4.next = l5
  l5.next = l6
- print("\(String(describing: getIntersectionNode(l1, l5)))")
+ print("\(String(describing: mergeTwoLists(l1, l4)))")
  
 ## 笔记:
  用一个新的链表就行
@@ -63,7 +63,7 @@ func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
     var right = list2
     
     var head = ListNode(-1)
-    let reslut = head
+    let result = head
     while left != nil && right != nil {
         if left!.val < right!.val {
             head.next = left
@@ -83,5 +83,5 @@ func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         head.next = right
     }
     
-    return reslut.next
+    return result.next
 }

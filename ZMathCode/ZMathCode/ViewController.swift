@@ -18,10 +18,13 @@ class ViewController: UIViewController {
         let l4 = ListNode(1)
         let l5 = ListNode(3)
         let l6 = ListNode(4)
+        let l7 = ListNode(0)
+        let l8 = ListNode(6)
         l1.next = l2
         l2.next = l3
         l4.next = l5
         l5.next = l6
-        print("\(String(describing: mergeTwoLists(l1, l4)))")
+        l7.next = l8
+        print("\(String(describing: mergeKLists([l1, l4, l7])))")
     }
 }

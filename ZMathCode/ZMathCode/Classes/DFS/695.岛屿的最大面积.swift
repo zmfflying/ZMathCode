@@ -54,7 +54,7 @@
 import Foundation
 
 func maxAreaOfIsland(_ grid: [[Int]]) -> Int {
-    var reslut: Int = 0
+    var result: Int = 0
     var arr: [[Int]] = grid
 
     let m: Int = grid.count
@@ -66,7 +66,7 @@ func maxAreaOfIsland(_ grid: [[Int]]) -> Int {
             //第一步,找
             tempNum = 0
             p_helpMaxAreaOfIsland(i: i, j: j)
-            reslut = max(reslut, tempNum)
+            result = max(result, tempNum)
         }
     }
 
@@ -84,5 +84,5 @@ func maxAreaOfIsland(_ grid: [[Int]]) -> Int {
         p_helpMaxAreaOfIsland(i: i, j: j-1)
     }
 
-    return reslut
+    return result
 }

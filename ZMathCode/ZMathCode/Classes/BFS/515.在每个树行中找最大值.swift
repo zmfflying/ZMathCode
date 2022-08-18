@@ -57,7 +57,7 @@ func largestValues(_ root: TreeNode?) -> [Int] {
         return []
     }
     
-    var reslut: [Int] = [Int].init()
+    var result: [Int] = [Int].init()
     var dp: [TreeNode?] = [root]
     var tmpNum: Int
     
@@ -82,9 +82,9 @@ func largestValues(_ root: TreeNode?) -> [Int] {
             }
         }
         
-        reslut.append(tmpNum)
+        result.append(tmpNum)
         dp = tmpArr
     }
     
-    return reslut
+    return result
 }

@@ -67,14 +67,14 @@ func minDepth1(_ root: TreeNode?) -> Int {
         return 0
     }
     
-    var reslut: Int = Int.max
+    var result: Int = Int.max
     func p_help(node: TreeNode?, height: Int) {
         if node == nil {
             return
         }
         
         if node?.left == nil && node?.right == nil {
-            reslut = min(reslut, height + 1)
+            result = min(result, height + 1)
             return
         }
         
@@ -83,5 +83,5 @@ func minDepth1(_ root: TreeNode?) -> Int {
     }
     
     p_help(node: root, height: 0)
-    return reslut
+    return result
 }

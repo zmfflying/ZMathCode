@@ -48,23 +48,23 @@ import Foundation
 
 //暴力解法
 //func subarraySum(_ nums: [Int], _ k: Int) -> Int {
-//    var reslut = 0
+//    var result = 0
 //    for i in 0..<nums.count {
 //        var curSum = 0
 //        for j in i..<nums.count {
 //            curSum += nums[j]
 //            if curSum == k {
-//                reslut += 1
+//                result += 1
 //            }
 //        }
 //    }
 //
-//    return reslut
+//    return result
 //}
 
 //前缀和
 //func subarraySum(_ nums: [Int], _ k: Int) -> Int {
-//    var reslut = 0
+//    var result = 0
 //    var preNums: [Int] = [Int].init(repeating: 0, count: nums.count + 1)
 //    preNums[0] = 0
 //    for i in 0..<nums.count {
@@ -74,11 +74,11 @@ import Foundation
 //    for i in 0..<nums.count {
 //        for j in i..<nums.count {
 //            if preNums[j+1] - preNums[i] == k {
-//                reslut += 1
+//                result += 1
 //            }
 //        }
 //    }
-//    return reslut
+//    return result
 //}
 
 //前缀和 + 哈希表

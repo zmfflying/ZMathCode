@@ -174,7 +174,7 @@ func findTargetSumWays(_ nums: [Int], _ target: Int) -> Int {
 
 //暴力解法
 //func findTargetSumWays(_ nums: [Int], _ target: Int) -> Int {
-//    var reslut: Int = 0
+//    var result: Int = 0
 //    var dp: [Int] = [0]
 //
 //    let len = nums.count
@@ -188,16 +188,16 @@ func findTargetSumWays(_ nums: [Int], _ target: Int) -> Int {
 //            tmpArr.append(red)
 //            if i == len - 1 {
 //                if add == target {
-//                    reslut += 1
+//                    result += 1
 //                }
 //
 //                if red == target {
-//                    reslut += 1
+//                    result += 1
 //                }
 //            }
 //        }
 //        dp = tmpArr
 //    }
-//    return reslut
+//    return result
 //}
 
