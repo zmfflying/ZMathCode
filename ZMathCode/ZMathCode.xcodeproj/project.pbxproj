@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F10451628ADD50D00271E7D /* 23.合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */; };
+		3F10451B28AF229A00271E7D /* 86.分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F10451A28AF229A00271E7D /* 86.分隔链表.swift */; };
 		3F12A00F281A77C500DD9E5E /* 695.岛屿的最大面积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */; };
 		3F12A0122823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */; };
 		3F1DF182274641D10034DF46 /* 221.最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF181274641D10034DF46 /* 221.最大正方形.swift */; };
@@ -138,6 +139,7 @@
 
 /* Begin PBXFileReference section */
 		3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23.合并K个升序链表.swift"; sourceTree = "<group>"; };
+		3F10451A28AF229A00271E7D /* 86.分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86.分隔链表.swift"; sourceTree = "<group>"; };
 		3F12A00E281A77C500DD9E5E /* 695.岛屿的最大面积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "695.岛屿的最大面积.swift"; sourceTree = "<group>"; };
 		3F12A0112823B86E00DD9E5E /* 1345.跳跃游戏 IV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1345.跳跃游戏 IV.swift"; sourceTree = "<group>"; };
 		3F1DF181274641D10034DF46 /* 221.最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221.最大正方形.swift"; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				DF387DC1257770FB00DA44FA /* 19.删除链表的倒数第N个节点.swift */,
 				DF965D8825788EEF009C4FC3 /* 24.两两交换链表中的节点.swift */,
 				3F10451528ADD50D00271E7D /* 23.合并K个升序链表.swift */,
+				3F10451A28AF229A00271E7D /* 86.分隔链表.swift */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -711,6 +714,7 @@
 				DF5F9A1325C1156D00CCE435 /* 75.颜色分类.swift in Sources */,
 				DF13BEFF25E0FE1600C7EBC4 /* 53.最大子序和.swift in Sources */,
 				DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */,
+				3F10451B28AF229A00271E7D /* 86.分隔链表.swift in Sources */,
 				DF42B67625E8F0D4000F1313 /* 337.打家劫舍III.swift in Sources */,
 				DFC4D44925748ED300EEC86D /* 92.反转链表II.swift in Sources */,
 				3F70123A265E1BA00093DCE4 /* 64.最小路径和.swift in Sources */,
