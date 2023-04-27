@@ -12,6 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))")
+        print("\(longestConsecutive([0,3,7,2,5,8,4,6,0,1]))")
     }
 }
