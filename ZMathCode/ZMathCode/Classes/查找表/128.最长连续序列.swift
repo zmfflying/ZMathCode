@@ -44,7 +44,7 @@
  */
 
 func longestConsecutive(_ nums: [Int]) -> Int {
-    var numSet: Set<Int> = Set(nums)
+    let numSet: Set<Int> = Set(nums)
     var maxLen: Int = 0
     
     for num in numSet {

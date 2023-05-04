@@ -16,6 +16,7 @@
 		3F1DF1862748D4930034DF46 /* 718.最长重复子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */; };
 		3F2F033A29FA4FEE006E1C9C /* 49.字母异位词分组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F033929FA4FEE006E1C9C /* 49.字母异位词分组.swift */; };
 		3F2F033C29FA5567006E1C9C /* 128.最长连续序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F033B29FA5567006E1C9C /* 128.最长连续序列.swift */; };
+		3F2F033E29FB67B0006E1C9C /* 15.三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F033D29FB67B0006E1C9C /* 15.三数之和.swift */; };
 		3F51701F2702F84D00EEF4EC /* 494.目标和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51701E2702F84D00EEF4EC /* 494.目标和.swift */; };
 		3F51705D27045FDB00EEF4EC /* 435.无重叠区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */; };
 		3F670A57278FF76500E877C7 /* 560.和为 K 的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F670A56278FF76500E877C7 /* 560.和为 K 的子数组.swift */; };
@@ -149,6 +150,7 @@
 		3F1DF1852748D4930034DF46 /* 718.最长重复子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "718.最长重复子数组.swift"; sourceTree = "<group>"; };
 		3F2F033929FA4FEE006E1C9C /* 49.字母异位词分组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "49.字母异位词分组.swift"; sourceTree = "<group>"; };
 		3F2F033B29FA5567006E1C9C /* 128.最长连续序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128.最长连续序列.swift"; sourceTree = "<group>"; };
+		3F2F033D29FB67B0006E1C9C /* 15.三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15.三数之和.swift"; sourceTree = "<group>"; };
 		3F51701E2702F84D00EEF4EC /* 494.目标和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494.目标和.swift"; sourceTree = "<group>"; };
 		3F51705C27045FDB00EEF4EC /* 435.无重叠区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435.无重叠区间.swift"; sourceTree = "<group>"; };
 		3F670A56278FF76500E877C7 /* 560.和为 K 的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560.和为 K 的子数组.swift"; sourceTree = "<group>"; };
@@ -421,6 +423,7 @@
 				DF5F9A8125CBCAE600CCE435 /* 88.合并两个有序数组.swift */,
 				DFFABA9025CCED7300A4231F /* 240.搜索二维矩阵II.swift */,
 				DF13BEF825E0E5B200C7EBC4 /* 16.最接近的三数之和.swift */,
+				3F2F033D29FB67B0006E1C9C /* 15.三数之和.swift */,
 			);
 			path = "双指针";
 			sourceTree = "<group>";
@@ -711,6 +714,7 @@
 			files = (
 				DF5F9A1325C1156D00CCE435 /* 75.颜色分类.swift in Sources */,
 				DF13BEFF25E0FE1600C7EBC4 /* 53.最大子序和.swift in Sources */,
+				3F2F033E29FB67B0006E1C9C /* 15.三数之和.swift in Sources */,
 				DF6F77BF2588C44C00EFD3A6 /* 46.全排列.swift in Sources */,
 				3F10451B28AF229A00271E7D /* 86.分隔链表.swift in Sources */,
 				DF42B67625E8F0D4000F1313 /* 337.打家劫舍III.swift in Sources */,
